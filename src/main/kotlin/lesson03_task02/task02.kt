@@ -8,6 +8,6 @@ fun main() {
     val age2 = "22"
     val secondNameOfHusband = "Сидорова"
 
-    println("ФИО: $name $surname $secondName. Возраст: $age1")
+    println("ФИО: $name $surname $secondName. Возраст: $age1 ")
     println("ФИО: $name $surname $secondNameOfHusband. Возраст: $age2")
 }
