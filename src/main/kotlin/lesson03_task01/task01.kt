@@ -5,6 +5,6 @@ fun main() {
     val hiNight = "Добрый вечер!"
     val userName = "Иван"
 
-    println("$userName, $hiDay")
+    println("$userName, $hiDay ")
     println("$userName, $hiNight")
 }
