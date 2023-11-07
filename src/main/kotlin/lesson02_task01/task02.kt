@@ -9,5 +9,5 @@ fun main(){
     val students4 = 5f
 
     val gpa = (students1+students2+students3+students4) / numberOfStudents
-    println("Средний бал учеников с углубленным изучением английского языка: $gpa")
+    println("Средний бал учеников с углубленным изучением английского языка:  $gpa")
 }
