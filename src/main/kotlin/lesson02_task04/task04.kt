@@ -3,10 +3,11 @@ package lesson02_task04
 fun main() {
     val crystalExtracted = 7
     val ironExtracted = 11
-    val buff = 0.2
+    val buff: Float = 20f //указать процент баффа
+    val buffToPerсent: Float = buff / 100
 
-    val crystalExtractedWithBuff = crystalExtracted * buff
-    val ironExtractedWithBuff = ironExtracted * buff
+    val crystalExtractedWithBuff = crystalExtracted * buffToPerсent
+    val ironExtractedWithBuff = ironExtracted * buffToPerсent
     val crystalExtractedWithBuffToInt = crystalExtractedWithBuff.toInt()
     val ironExtractedWithBuffToInt = ironExtractedWithBuff.toInt()
 
