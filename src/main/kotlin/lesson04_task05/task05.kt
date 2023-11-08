@@ -4,7 +4,7 @@ fun main() {
     //Вводные данные:
     val conditionShip = true //false - судно не имеет провреждений
     val numberOfCrew = 70
-    val provisions = 55
+    val provisions = 56
     val weather = true //true - благоприятная, false - неблагоприятная
 
     //Данные необходимые для отправления судна:
