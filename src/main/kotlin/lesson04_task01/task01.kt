@@ -2,11 +2,11 @@ package lesson04_task01
 
 fun main(){
 
-    val tables = 13
-    val reservedTableToday = 13 != tables
-    val reservedTableTomorrow = 9 != tables
+    val isTableTodayReserved = 13 != TABLES
+    val isTableTomorrowReserved = 9 != TABLES
 
-    println("Доступность столиков на сегодня:: $reservedTableToday \n" +
-            "Доступность столиков на завтра: $reservedTableTomorrow")
+    println("Доступность столиков на сегодня:: $isTableTodayReserved \n" +
+            "Доступность столиков на завтра: $isTableTomorrowReserved")
 
 }
+const val TABLES = 13
