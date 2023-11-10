@@ -6,7 +6,7 @@ fun main() {
     val majorityUser = readln().toInt()
 
     val thisYear = 2023
-    var accessToContent = thisYear - majorityUser
+    val accessToContent = thisYear - majorityUser
 
     if(accessToContent >= MAJORITY) println("Показать экран со скрытым контентом")
     else println("Доступ к скрытому контенту запрещен")
