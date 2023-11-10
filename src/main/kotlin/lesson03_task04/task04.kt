@@ -9,7 +9,7 @@ fun main() {
 
     from = "D2"
     move = "D3"
-    numMove  = "2"
+    numMove = "2"
 
     println("[$from-$move;$numMove]")
 
