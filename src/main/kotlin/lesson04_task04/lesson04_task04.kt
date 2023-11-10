@@ -3,21 +3,17 @@ package lesson04_task04
 fun main(){
 
     val day = 5
-    val parity = (day%2) == 0
-    val arms = false
-    val abs = false
-    val back = true
-    val legs = true
+    val isEvenDay = (day%2) == 0 //не понимаю, что тут не так, автоформатирования нет. Предлагает только игнорировать или изменить самостоятельно
+    val armsAndAbs = false
+    val backAndLegs = true
 
-    val armsToday = arms == parity
-    val absToday = abs == parity
-    val backToday = back == parity
-    val legsToday = legs == parity
+    val armsAndAnsToday = armsAndAbs == isEvenDay
+    val backAndLegsToday = backAndLegs == isEvenDay
 
     println("""
-        |Упражнения для рук: $armsToday
-        |Упражнения для ног: $legsToday
-        |Упражнения для спины: $backToday
-        |Упражнения для пресса: $absToday
+        |Упражнения для рук: $armsAndAnsToday
+        |Упражнения для ног: $backAndLegsToday
+        |Упражнения для спины: $backAndLegsToday
+        |Упражнения для пресса: $armsAndAnsToday
     """.trimMargin())
 }
