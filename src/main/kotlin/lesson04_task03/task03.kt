@@ -7,11 +7,12 @@ fun main() {
     val wetNow = 20
     val seasonNow ="Зима"
 
-    val conditionsSuitable = isSunnyNow == ISWEATHERSUNNY && isAwningNowOpen == ISAWNINGOPEN && wetNow == WET && seasonNow == SEASON
+    val conditionsSuitable = isSunnyNow == IS_WEATHER_SUNNY && isAwningNowOpen == IS_AWNING_OPEN && wetNow == WET && seasonNow == SEASON
 
     println("Благоприятные ли условия сейчас для роста бобовых? $conditionsSuitable")
 }
-const val ISWEATHERSUNNY: Boolean = true
-const val ISAWNINGOPEN = true
+
+const val IS_WEATHER_SUNNY: Boolean = true
+const val IS_AWNING_OPEN = true
 const val WET = 20
 const val SEASON = "Не зима"
