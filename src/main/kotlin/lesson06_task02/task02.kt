@@ -12,5 +12,5 @@ fun main() {
         seconds--
         Thread.sleep(1000)
     }
-    println("Прошло $timer секунд")
+    println("Прошло $timer секунд.")
 }
