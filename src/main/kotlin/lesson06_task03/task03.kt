@@ -9,5 +9,5 @@ fun main() {
         seconds--
         Thread.sleep(1000)
     }
-    println("Время вышло.")
+    println("Время вышло")
 }
