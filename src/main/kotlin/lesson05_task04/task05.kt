@@ -14,13 +14,12 @@ fun main(){
 
     val userName = readln()
 
-    if(userName != USERNAME){
+    if(userName != USER_NAME){
         println("Пользователь с именем $userName не найден в системе. Зарегестрируйтесь, пожалуйста, в системе.")
-    } else if (userName == USERNAME){
+    } else if (userName == USER_NAME){
         println("Отлично! Теперь введите ваш пароль: ")
         val userPassword = readln()
-        if(userPassword == USERPASSWORD){
-//            отступ в первой строчке ниже нужен для того, чтобы вывод в консоли был эстетичнее
+        if(userPassword == USER_PASSWORD){
             println("""
 
                 [вздыхает...] Ваши данные проверены, и о, чудо, они верны... Пользователь "Zaphod", 
@@ -30,14 +29,7 @@ fun main(){
             """.trimIndent())
         } else println("Пароль введен неверно. Начните процесс авторизации заново")
     }
-//    else if(userPassword == USERPASSWORD) {
-//        println("""
-//            [вздыхает...] Ваши данные проверены, и о, чудо, они верны... Пользователь "Zaphod",
-//            вам разрешено входить на борт корабля "Heart of Gold". Хотя мне всё равно...
-//            Ну вперед, войдите... Если вам так уж надо, в конце концов... [меланхолический вздох...]
-//            Надеюсь, вам понравится пребывание здесь больше, чем мне.
-//        """.trimIndent())
-//    }
 }
-const val USERNAME = "Zaphod"
-const val USERPASSWORD = "PanGalactic"
+
+const val USER_NAME = "Zaphod"
+const val USER_PASSWORD = "PanGalactic"
