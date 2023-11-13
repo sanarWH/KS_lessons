@@ -10,11 +10,11 @@ fun main(){
     var cargoVolume2 = 100
 
     println("Груз с весом: $cargoWeight1; и объемом: $cargoVolume1; соответствует категории Average: " +
-            "${cargoWeight1 >= AVERAGEWEIGHTMIN && cargoWeight1 <= AVERAGEWEIGHTMAX && cargoVolume1 < AVERAGEVOLUME}")
+            "${cargoWeight1 >= AVERAG_EWEIGHT_MIN && cargoWeight1 <= AVERAGE_WEIGHT_MAX && cargoVolume1 < AVERAGE_VOLUME}")
 
     println("Груз с весом: $cargoWeight2; и объемом: $cargoVolume2; соответствует категории Average: " +
-            "${cargoWeight2 >= AVERAGEWEIGHTMIN && cargoWeight2 <= AVERAGEWEIGHTMAX && cargoVolume2 < AVERAGEVOLUME}")
+            "${cargoWeight2 >= AVERAG_EWEIGHT_MIN && cargoWeight2 <= AVERAGE_WEIGHT_MAX && cargoVolume2 < AVERAGE_VOLUME}")
 }
-const val AVERAGEWEIGHTMIN = 35
-const val AVERAGEWEIGHTMAX = 100
-const val AVERAGEVOLUME = 100
+const val AVERAG_EWEIGHT_MIN = 35
+const val AVERAGE_WEIGHT_MAX = 100
+const val AVERAGE_VOLUME = 100
