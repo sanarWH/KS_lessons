@@ -3,7 +3,7 @@ package lesson04_task04
 fun main(){
 
     val day = 5
-    val isEvenDay = (day%2) == 0 //не понимаю, что тут не так, автоформатирования нет. Предлагает только игнорировать или изменить самостоятельно
+    val isEvenDay = (day % 2) == 0
     val armsAndAbs = false
     val backAndLegs = true
 
