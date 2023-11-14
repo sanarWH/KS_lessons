@@ -23,12 +23,3 @@ fun main(){
         }
     }
 
-//    if(userNumber == number){
-//        println("Это была великолепная игра")
-//    } else if(userNumber != number){
-//        while (userNumber == number && tryNumber > 0){
-//            tryNumber--
-//            println("Вы не угадали число. Попыток осталось $tryNumber")
-//
-//        }
-//    }
