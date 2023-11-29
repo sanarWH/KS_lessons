@@ -2,13 +2,13 @@ package lesson04_task05
 
 fun main() {
     //Вводные данные:
-    val conditionShip = true //false - судно не имеет провреждений
+    val isConditionShip = true
     val numberOfCrew = 70
     val provisions = 56
-    val weather = true //true - благоприятная, false - неблагоприятная
+    val isWeather = true
 
     //Данные необходимые для отправления судна:
-    val conditionShipStart = false
+    val isConditionShipStart = false
     val numberOfCrewMin = 55..70
     val provisionsMin = 50
 
@@ -18,10 +18,10 @@ fun main() {
     val weatherStartAlt = true
 
 
-    val go = (conditionShip == conditionShipStart) && (numberOfCrew in numberOfCrewMin) &&
+    val go = (isConditionShip == isConditionShipStart) && (numberOfCrew in numberOfCrewMin) &&
             (provisions >= provisionsMin)
     val goAlt = (numberOfCrew >= numberOfCrewMinAlt) && (provisions >= provisionsMinAlt)
-            && (weather == weatherStartAlt)
+            && (isWeather == weatherStartAlt)
 
     val start = true == go || true == goAlt
 
